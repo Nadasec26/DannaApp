@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  /* border: #df0016 1px solid; */
+}
+
+:root {
+  --PrimaryColor: #32aa90;
+  --SecondaryColor: #3e63b0;
+  --LightSecondaryColor: #bad9fa;
+  --primaryFont: "Amaranth", sans-serif;
+  --titleFont: "PT Sans", sans-serif;
+}
+/* __________ Fonts _____________ */
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.amaranth-bold {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.amaranth-regular-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.amaranth-bold-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+button {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: bold !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+}
+
+.offline {
+  padding: 0.625rem 1.25rem;
+  border-radius: 3.125rem;
+  background-color: #df0016;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  font-weight: bold;
+  z-index: 999;
+}
+
+/* ___ form ____ */
+.error-message {
+  position: absolute;
+  left: 20px;
+  top: 95%;
+  color: #fff;
+  background-color: #df0016;
+  border-radius: 5px;
+  padding: 0 10px;
+  box-shadow: 0 0 10px 0px #0000008c;
+  z-index: 9;
+}
+.error-message i {
+  position: absolute;
+  top: -9px;
+  left: 20px;
+}
+
+/* _______________________ */
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #32aa90;
+  border-radius: 0.375rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3e63b0;
+}
+.scrollbar {
+  scrollbar-color: #32aa90 #f1f1f1;
+}
+/* _______________________ */

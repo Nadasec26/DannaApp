@@ -1,0 +1,296 @@
+ul {
+	list-style: none;
+}
+.DetailsDoctor .container .row .img-fluid {
+	width: 564px;
+	height: 270px;
+}
+.DetailsDoctor .container .row .rate-doc {
+	background-color: white;
+	width: 98px;
+	height: 36px;
+	border-radius: 0 0 0 30px;
+	position: absolute;
+	margin-top: -4%;
+}
+.DetailsDoctor .container .row .rate-doc ul {
+	display: flex;
+	gap: 5%;
+}
+.DetailsDoctor .container .row .rate-doc ul li {
+	color: #edba64;
+}
+.DetailsDoctor .container .row .card {
+	border-radius: 17px;
+}
+.DetailsDoctor .card-body .card-title {
+	font-family: Amaranth;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.DetailsDoctor .card-body .card-title2 {
+	font-family: Amaranth;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #6d666687;
+}
+.DetailsDoctor .card-body .card-text .text-muted {
+	font-family: Amaranth;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000a3;
+}
+.DetailsDoctor .card-body .card-text {
+	font-family: Amaranth;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	color: #6d666687;
+}
+.DetailsDoctor .card-body .chat-video ul {
+	display: flex;
+	gap: 15px;
+	margin-left: -30px;
+}
+.DetailsDoctor .card-body .chat-video ul li .chat {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #5fce97;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+.DetailsDoctor .card-body .chat-video ul li .video {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #5d98df;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+.DetailsDoctor .card-body .price {
+	font-family: Amaranth;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39px;
+	letter-spacing: 0em;
+	margin-left: 65%;
+}
+.DetailsDoctor .section-two {
+	width: 90%;
+	height: 80%;
+}
+.DetailsDoctor .section-two .card-body {
+	display: flex;
+	gap: 10%;
+	margin-left: -10%;
+}
+.DetailsDoctor .section-two .card-body ul li.user {
+	background-color: rgba(62, 99, 176, 0.29);
+	padding: 5px;
+	font-size: 25px;
+	color: #3e63b0;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.DetailsDoctor .section-two .card-body ul li.star {
+	background-color: rgba(237, 186, 100, 0.24);
+	padding: 5px;
+	font-size: 25px;
+	color: #edba64;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.DetailsDoctor .section-two .card-body ul li.exp {
+	background-color: rgba(230, 81, 51, 0.24);
+	padding: 5px;
+	font-size: 25px;
+	color: #ed6f31;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.DetailsDoctor .section-two .card-body .content .card-title {
+	font-family: Amaranth;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.48);
+}
+.DetailsDoctor .section-two .card-body .content .card-text {
+	font-family: Amaranth;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 16px;
+	color: black;
+}
+.DetailsDoctor .time .morning .card-morning,
+.DetailsDoctor .time .evening .card-evening {
+	display: flex;
+	gap: 2%;
+	margin-top: 2%;
+}
+.DetailsDoctor .time .morning .card-morning ul li.morning,
+.DetailsDoctor .time .evening .card-evening ul li.evening {
+	background-color: rgba(230, 81, 51, 0.24);
+	padding: 5px;
+	font-size: 25px;
+	color: #ed6f31;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.DetailsDoctor .time .morning .card-morning .content .card-text,
+.DetailsDoctor .time .evening .card-evening .content .card-text {
+	font-family: Amaranth;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.48);
+}
+.DetailsDoctor .time .morning .card-morning .content .card-title,
+.DetailsDoctor .time .evening .card-evening .content .card-title {
+	font-family: Amaranth;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 16px;
+	color: black;
+}
+.DetailsDoctor .time .date {
+	padding: 7px;
+	width: 120%;
+	text-align: center;
+	margin-top: 8%;
+}
+.DetailsDoctor .time .active {
+	background-color: rgba(95, 206, 151, 1);
+	color: white;
+	border: none;
+}
+.DetailsDoctor .time .unactive {
+	background-color: rgba(217, 217, 217, 0.24);
+	color: rgba(0, 0, 0, 0.29);
+}
+.DetailsDoctor .card-booking-details h4 {
+	font-family: Amaranth;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: 1.2px solid rgba(0, 0, 0, 0.21);
+	padding: 10px;
+}
+.DetailsDoctor .card-booking-details .time_date span {
+	font-family: Amaranth;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 9%;
+}
+.DetailsDoctor .card-booking-details .time_date ul {
+	display: flex;
+	gap: 2%;
+}
+
+.DetailsDoctor .card-booking-details .payment_Detail span {
+	font-family: Amaranth;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 9%;
+}
+.DetailsDoctor .card-booking-details .payment_Detail ul li {
+	font-family: Amaranth;
+	font-size: 16px;
+	font-weight: 400;
+}
+.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul1 {
+	display: flex;
+	gap: 43%;
+}
+.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul2 {
+	display: flex;
+	gap: 51%;
+}
+.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul3 {
+	display: flex;
+	gap: 60%;
+}
+.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul2 {
+	margin-top: -5%;
+}
+.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul4 {
+	display: flex;
+	gap: 41%;
+}
+.para_Payment_Method {
+	font-family: Amaranth;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px;
+	margin-left: 7%;
+}
+
+.DetailsDoctor .card-booking-details .img_viza {
+	margin-left: 7%;
+	padding: 10px;
+}
+.DetailsDoctor .card-booking-details button {
+	border: none;
+	width: 86%;
+	height: 52px;
+	background-color: rgba(50, 170, 144, 1);
+	color: white;
+	margin: 8%;
+}
+.DetailsDoctor .card-booking-details .total_amount {
+	background-color: rgba(217, 217, 217, 0.17);
+}
+@media (max-width: 767px) {
+	.DetailsDoctor .card-body .card-text {
+		font-size: 11.5px;
+	}
+}
+@media (max-width: 1200px) {
+	.DetailsDoctor .card-body .card-text {
+		font-size: 12px;
+	}
+	.DetailsDoctor .card-body .price {
+		margin-left: 55%;
+	}
+	.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul1 {
+		gap: 27%;
+	}
+	.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul2 {
+		gap: 37%;
+	}
+	.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul3 {
+		gap: 47%;
+	}
+	.DetailsDoctor .card-booking-details .payment_Detail .payment_Detailul4 {
+		gap: 23%;
+	}
+}
+@media (min-width: 767px) and(max-width:992px) {
+	.calender {
+		position: relative;
+		margin-left: 34%;
+	}
+	.card-booking-details {
+		margin-left: 33%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.calender {
+		display: none;
+	}
+	.card-booking-details {
+		display: none;
+	}
+}

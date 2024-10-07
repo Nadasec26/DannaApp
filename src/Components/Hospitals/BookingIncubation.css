@@ -1,0 +1,43 @@
+.bookIncubationForm .form-select {
+	background-color: var(--SecondaryColor);
+	color: var(--LightSecondaryColor);
+	font-weight: bold;
+	--bs-form-select-bg-img: none;
+	cursor: pointer;
+	background-image: none;
+}
+.form-select.is-valid:not([multiple]):not([size]),
+.form-select.is-invalid:not([multiple]):not([size]) {
+	background-image: none;
+}
+
+.bookIncubationForm .fa-sort-down {
+	color: var(--LightSecondaryColor);
+	font-size: 24px;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-65%);
+}
+
+.bookIncubationForm .iconError {
+	color: #df0016;
+	opacity: 1;
+}
+
+.bookIncubationForm .iconSucc {
+	color: #198754;
+	opacity: 1;
+}
+
+.bookIncubationForm .formBtn {
+	background-color: var(--PrimaryColor) !important;
+}
+
+.bookIncubationForm .formLink {
+	font-family: var(--primaryFont);
+}
+
+.bookIncubationForm .formLink a {
+	color: var(--PrimaryColor);
+	font-weight: 700;
+}

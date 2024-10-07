@@ -1,0 +1,42 @@
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.profile {
+	background-color: rgba(245, 250, 255, 1);
+	font-family: Amaranth;
+}
+.profile .sidebar {
+	border-radius: 10px;
+}
+.profile .sidebar ul li a span,
+.profile .sidebar .info a span {
+	color: rgba(0, 0, 0, 0.8);
+}
+.profile .info {
+	border-top: 3px solid #e6e6e7;
+}
+.profile .profileform .form label:not(.form-check-label) {
+	color: rgba(0, 0, 0, 0.4);
+	border: 1px solid white;
+	background-color: white;
+	position: relative;
+	top: 20px;
+}
+.profile .profileform .form .form-check-label {
+	color: rgba(0, 0, 0, 1);
+}
+.profile .profileform .form input {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.profile .profileform .form .gender {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.profile .profileform .form button {
+	background-color: rgba(50, 170, 144, 1);
+	color: white;
+}

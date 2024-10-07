@@ -1,0 +1,38 @@
+#incubation h2 {
+  font-size: 3rem;
+}
+
+#incubation .title-para::after {
+  content: "";
+  height: 5px;
+  width: 40px;
+  background-color: var(--PrimaryColor);
+  position: absolute;
+  left: 50%;
+  top: 150%;
+  transform: translateX(-50%);
+}
+
+#incubation .incubation-card {
+  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+#incubation .incubation-card .card-text {
+  color: var(--SecondaryColor);
+  font-size: 1.25rem;
+}
+
+#incubation .incubation-card span {
+  color: #000;
+
+}
+
+#incubation .incubation-card span:hover {
+  color: var(--SecondaryColor);
+}
+
+#incubation .incubation-card .card .pop-para {
+  padding: 7px 14px;
+  font-size: 1.25rem;
+  background-color: var(--PrimaryColor);
+}

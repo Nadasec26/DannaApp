@@ -1,0 +1,101 @@
+.signUpForm {
+	background-image: url("../images/form-bg\ 1.png");
+	min-height: 100vh;
+}
+
+.signUpForm h2 {
+	font-family: var(--titleFont);
+	font-weight: 700;
+	color: var(--PrimaryColor);
+}
+
+.signUpForm .subtitle {
+	font-family: var(--primaryFont);
+	font-weight: 500;
+	color: var(--SecondaryColor);
+}
+
+.signUpForm .form-select {
+	background-color: var(--SecondaryColor);
+	color: var(--LightSecondaryColor);
+	font-weight: bold;
+	--bs-form-select-bg-img: none;
+	cursor: pointer;
+	background-image: none;
+}
+.form-select.is-valid:not([multiple]):not([size]),
+.form-select.is-invalid:not([multiple]):not([size]) {
+	background-image: none;
+}
+
+.signUpForm .fa-sort-down {
+	color: var(--LightSecondaryColor);
+	font-size: 24px;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-65%);
+}
+
+.signUpForm input.email {
+	padding-left: 35px;
+}
+.signUpForm input.password {
+	padding-left: 35px;
+	padding-right: 40px;
+}
+
+.signUpForm .fa-envelope,
+.signUpForm .fa-lock {
+	color: #595c5f;
+	opacity: 0.5;
+	font-size: 20px;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.signUpForm .fa-eye,
+.signUpForm .fa-eye-slash {
+	color: #595c5f;
+	opacity: 0.5;
+	font-size: 20px;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.signUpForm .iconError {
+	color: #df0016;
+	opacity: 1;
+}
+
+.signUpForm .iconSucc {
+	color: #198754;
+	opacity: 1;
+}
+
+.signUpForm .formBtn {
+	background-color: var(--PrimaryColor) !important;
+}
+
+.signUpForm .formLink {
+	font-family: var(--primaryFont);
+}
+.signUpForm .formLink a {
+	color: var(--PrimaryColor);
+	font-weight: 700;
+}
+
+/* .iconmail {
+    position: absolute;
+    top: 49.3%;
+    left: 9.5%;
+    color: rgba(62, 99, 176, 0.5);
+}
+.iconpass {
+    position: absolute;
+    top: 58.5%;
+    left: 9.5%;
+    color: rgba(62, 99, 176, 0.5);
+} */

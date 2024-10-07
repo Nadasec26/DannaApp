@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	--PrimaryColor: #32aa90;
+	--SecondaryColor: #3e63b0;
+	--LightSecondaryColor: #bad9fa;
+	--primaryFont: "Amaranth", sans-serif;
+	--titleFont: "PT Sans", sans-serif;
+}
+
+button {
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	font-weight: bold !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+img {
+	width: 100%;
+}
+
+.offline {
+	padding: 0.625rem 1.25rem;
+	border-radius: 3.125rem;
+	background-color: #df0016;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	color: #fff;
+	font-weight: bold;
+	z-index: 999;
+}
+
+/* ___ form ____ */
+.error-message {
+	position: absolute;
+	left: 20px;
+	top: 95%;
+	color: #fff;
+	background-color: #df0016;
+	border-radius: 5px;
+	padding: 0 10px;
+	box-shadow: 0 0 10px 0px #0000008c;
+	z-index: 9;
+}
+.error-message i {
+	position: absolute;
+	top: -9px;
+	left: 20px;
+}
